@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.auxiliary_block_type
+    - field.field.block_content.auxiliary_block_type.body
+  module:
+    - text
+id: block_content.auxiliary_block_type.default
+targetEntityType: block_content
+bundle: auxiliary_block_type
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

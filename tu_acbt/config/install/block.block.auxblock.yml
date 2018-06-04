@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:auxiliary_block_type:01b9778e-e0dd-4879-8f3e-3cbfcb71ad04'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: auxblock
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:01b9778e-e0dd-4879-8f3e-3cbfcb71ad04'
+settings:
+  id: 'block_content:01b9778e-e0dd-4879-8f3e-3cbfcb71ad04'
+  label: 'Aux Block'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

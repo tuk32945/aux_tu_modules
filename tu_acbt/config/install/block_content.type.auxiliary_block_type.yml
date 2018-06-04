@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: auxiliary_block_type
+label: 'Auxiliary Block Type'
+revision: 0
+description: ''

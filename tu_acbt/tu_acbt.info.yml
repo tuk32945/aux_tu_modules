@@ -1,0 +1,11 @@
+name: 'Auxiliary Custom Block and Type'
+description: 'This module creates a custom block type, then creates a block and saves it to the sidebar region.'
+package: Temple
+type: module
+core: 8.x
+dependencies:
+  - block
+  - block_content
+  - field
+  - text
+version: 8.x
